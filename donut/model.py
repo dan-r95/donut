@@ -1,7 +1,7 @@
 import warnings
 from functools import partial
 
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tfsnippet.distributions import Normal
 from tfsnippet.modules import VAE, Lambda, Module
 from tfsnippet.stochastic import validate_n_samples

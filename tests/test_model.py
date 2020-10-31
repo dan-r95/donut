@@ -1,6 +1,6 @@
 import numpy as np
 import pytest
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from mock import Mock
 from tfsnippet.modules import VAE
 from tfsnippet.utils import (global_reuse, ensure_variables_initialized,

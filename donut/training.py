@@ -1,6 +1,6 @@
 import six
 import numpy as np
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
 from tfsnippet.scaffold import TrainLoop
 from tfsnippet.utils import (VarScopeObject,
                              reopen_variable_scope,
